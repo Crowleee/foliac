@@ -42,7 +42,7 @@ $(document).ready(() => {
 
     $('.menu').on('touchend', (e) => {
         let currentY = e.originalEvent.changedTouches[0].clientY;
-        if(currentY < (lastY - 30)) {
+        if(currentY < (lastY - 60)) {
             setTimeout(() => {
             $('body').removeClass('menu-opened');
             }, 300);
