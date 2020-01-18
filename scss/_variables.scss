@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@font-face {
+	font-family: 'Big John';
+	src: url(../fonts/bigjohn.eot);
+	src: url(../fonts/bigjohn.eot) format('embedded-opentype'),
+		url(../fonts/bigjohn.otf) format("otf"),
+		url(../fonts/bigjohn.woff) format("woff");
+}
+@font-face {
+	font-family: 'Slim Joe';
+	src: url(../fonts/slimjoe.eot);
+	src: url(../fonts/slimjoe.eot) format('embedded-opentype'),
+		url(../fonts/slimjoe.otf) format("otf"),
+		url(../fonts/slimjoe.woff) format("woff");
+}
+
+$primary-color: #48BF72;
+$secondary-color: #3C4955;
+$text-color: #fff;
+$gray: #eaeaea;
+
+$title-font: 'Big Jhon', sans-serif;
+$subtitle-font: 'Slim Joe', sans-serif;
+$text-font: 'Lato', sans-serif;
